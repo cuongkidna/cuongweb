@@ -1,0 +1,227 @@
+body{
+    margin: 0;
+}
+.khung{
+    max-width: 1269px;
+    margin: 0 auto;
+    padding: 12px 0;
+    position: relative;
+    z-index: 1;
+}
+.ben-phai{
+    float: right;
+}
+.tiem-kiem{
+    border-radius: 6px;
+    width: 180px;
+    padding: 8px 20px;
+    border: 1px solid gainsboro;
+    line-height: 8px;
+}
+.nut-tim-kiem{
+    border-radius: 6px;
+    background-color: white;
+    border: 1px solid gainsboro;
+    line-height: 15px;
+    padding: 8px;
+    margin-left: -12px;
+}
+.hinh{
+    padding: 8px;
+}
+.khoi{
+    float: left;
+    margin-right: 13px;
+    margin-top: 7px;
+}
+.tieu-de{
+    text-align: center;
+    float: right;
+    margin-right: 415px !important;
+    margin-left: 10px;
+}
+.hinh-anh{
+    float: right;
+    padding: 20px;
+    margin-top: -140px;
+}
+article>nav{
+    color: aliceblue;
+    width: 22%;
+    margin-left: -10px;
+    font-size: 22px;
+    background-color: rgba(147, 3, 3, 0.966);
+    border-radius: 0px 69px 69px 0px;
+}
+nav{
+    font-size: 18px;
+    text-align: left;
+    background-color: rgba(147, 3, 3, 0.966);
+    padding: 8px;
+    z-index: 1;
+    position: relative;
+}
+nav a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 0 20px;
+}
+footer{position: absolute;
+    background-color: aqua;
+    height: 150px;
+    width: 5000px;
+    background-image: url(../images/BG.png);
+}
+.linefooter{
+    background-image: url(../images/LineFooter.png);
+    height: 3px;
+}
+.thong-tin{position: absolute;
+    float: right;
+    text-align: center;
+    font-size: 16px;
+    left: 380px;
+    top: 15px;
+}
+h3{color: red;
+    font-size: 22px;
+text-shadow: 0 0 15px orangered;}
+h5{color: blue;
+    font-size: 18px;
+text-shadow: 0 0 15px blue;}
+h4{color: rgb(78, 49, 6);}
+footer div>.hinh{position: absolute;
+    top: 25px;
+    left: 100px;
+}
+nav>a:hover{
+    color: yellow;
+    text-decoration: underline;
+}
+iframe{width: 96%;
+min-height: 400px;}
+.vmenu{
+    padding: 0px;
+    margin: 5px;
+    list-style: none;
+    border-radius: 3px;
+    box-shadow: 0 0 2px gray;
+    background-color: white;
+}
+.vmenu a{
+    display: block;
+    border-bottom: 2px solid rgb(165, 9, 9);
+    color: rgb(165, 9, 9);
+    font-variant: small-caps;
+    font-size: larger;
+    text-decoration: none;
+    padding: 8px 5px 131px 30px;
+}
+.vmenu a:hover{
+    border-bottom: 2px solid rgb(165, 9, 9);
+    font-weight: bold;
+}
+aside{
+    min-height: 1512px;
+    width: 26%;
+    background-color: lightgray;
+    float: right;
+    margin-top: -752px;
+}
+article{margin: 10px;
+    width: 100%;
+min-height: 1500px;}
+.hmenu{
+    margin: 0px;
+    padding: 0px;
+    height: 25px;
+    list-style: none;
+}
+.ul.hmenu>li>a{
+    display: block;
+    line-height: 40px;
+    text-decoration: none;
+    font-variant: small-caps;
+    padding-left: 25px;
+    color: white;
+}
+ul.hmenu>li>a:hover{
+    color: yellow;
+    font-weight: bolder;
+}
+ul.hmenu>li{
+    float: left;
+    margin: 0 5px;
+    position: relative;
+}
+ul.hmenu>li:hover>.sub-menu{
+    display: block;
+}
+.sub-menu{
+    margin: 0px;
+    padding: 0px;
+    border-radius: 5px;
+    list-style: none;
+    width: 150px;
+    position: absolute;
+    display: none;
+    box-shadow: 0 0 5px orangered;
+    background-color: green;
+}
+.sub-menu>li>a{
+    border-bottom: 1px dotted orangered;
+    display: block;
+    line-height: 30px;
+    text-decoration: none;
+    padding-left: 25px;
+}
+.sub-menu>li>a:hover{
+    color: red;
+    font-weight: bolder;
+}
+h1>a{font-size: 34px;
+    text-decoration: none;
+}
+h1>a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+.main{
+    margin-left: 60px;
+    font-size: 36px;
+}
+.form-group>input{
+    width: 400px;
+    height: 50px;
+    font-size: 29px;
+}
+.trai{margin-top: -102px;
+    margin-right: 238px;
+    float: right;
+}
+.trai>input{
+    width: 400px;
+    height: 50px;
+    font-size: 29px;
+}
+.traii{
+    margin-top: -96px;
+    margin-right: 238px;
+    float: right;
+}
+.traii>input{
+    width: 400px;
+    height: 50px;
+    font-size: 29px;
+}
+.traiii{
+    margin-top: -88px;
+    margin-right: 238px;
+    float: right;
+}
+.traiii>input{
+    width: 400px;
+    height: 129px;
+    font-size: 29px;
+}
